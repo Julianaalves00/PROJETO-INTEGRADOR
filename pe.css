@@ -1,0 +1,66 @@
+* { margin: 0;
+    padding: 0;
+
+}
+#loja {
+     font-family: sans-serif;
+    color: #b34212;
+    margin-left: 8%; 
+    
+   
+
+}
+#Dellas{ 
+    font-family: sans-serif;
+    margin-left: 15%;
+    color: #e25113;
+    
+
+}
+#check{
+    display: inline-block;
+    border: 3px solid #8c777f ;
+    box-shadow: 2px 2px 2px #9e8991;
+    
+}
+fieldset{
+    border: 0;
+}
+body{
+    background-color: #e7c7b0;
+     font-family: sans-serif;
+     color:#d16b73 ;
+     font-size: 25px;
+     margin-left: 36%;
+     margin-top: 3%;
+     justify-content: center;}
+
+     .clientes{
+
+     }
+
+     
+
+button{
+    font-size: 1.2em;
+    color:#341405;
+    border-radius: 10px;
+    margin-top: 3% ;
+    margin-left: 8%;
+    justify-content: center;
+    background-color: #c6aeaa;
+    box-shadow: 2px 2px 2px;
+    padding: 0.2 0.6;
+    text-shadow: #8793fe;
+    
+}
+.botao:hover{
+    font-size: 1.2em;
+    background-color: #341405;
+    border: 0;
+    color: #f2861b;
+    padding: 0.2em 0.6em;
+}
+
+    
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="pe.css" media="screen">
+    <title> Cadastro </title>
+</head>
+<body>
+    <div>
+        <h1 id="Loja"> Cadastro de clientes </h1>
+        <p id="Dellas"> Loja Dellas</p>
+        <br>
+          </div>
+<form method="POST" action="cadastra_clientes.php">
+    
+        <fieldset class="clientes">
+        <div class="clientes">
+          <label for="nome"><strong>nome</strong> </label>
+             <input type="text" name="=nome" id="nome" required>   
+        </div>
+        <div class="clientes">
+            <label for="Sobrenome"> <strong> Sobrenome</strong></label>
+            <input type="text" name="Sobrenome" id="Sobrenome" required>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div class="clientes">
+            <label for="datanascim"> <strong>Data de Nascimento</strong></label>
+            <input type="number" name="datanascim" id="datanascimento" required>
+        </div> 
+    </fieldset>
+    <fieldset>
+        <div class="clientes">
+            <label for="cpf"> <strong>Cpf</strong></label>
+            <input type="number" name="CPF" id="cpf" required>
+        </div> </fieldset>
+        
+        <div class="clientes"> <fieldset>
+            <label for="telefone">telefone <strong><telefone></strong></label>
+            <input type="number" name="=telefone/cel" id="contato" required>
+
+        </div> </fieldset>
+        <fieldset>
+        <div class="clientes">
+            <label for="email"> <strong> email</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div> 
+    </fieldset>
+        <div class="clientes">
+             <label >
+               <input type="radio" name="salvar" value="salvar"> Salvar
+            </label>
+            <label> 
+                <input type="radio" name=" entrar/salvar" value="entrar/salvar" checked> Entrar/salvar
+            </label>
+         </div>
+    <div class="clientes">
+        <label for="gostos"> <strong> seu tamanho de roupa</strong> </label>
+
+     <fieldset class="grupo">
+        <div id="check">
+           <label > <strong> selecione seu tamanho</strong></label> <br>
+           <input type="checkbox" id="tamanhoP" name="tamanhoP" value="roupa">
+           <label for="tamahoP"> P</label>
+           <input type="checkbox" id="tamanhoM" name="tamanhoM" value="roupaM">
+           <label for="tamanhoM"tamanhoM> M</label>
+           <input type="checkbox" id="tamanhoG" name="tamanhoG" value="roupaG">
+           <label for="tamanhoG" id="tamanhoG"> G</label>
+           <input type="checkbox" id="PlusSize" name="PlusSize" value="PlusSize">
+           <label for="PlusSize" id="PlusSize"> Plus Size</label>
+
+       </div>
+       </fieldset>
+       
+       <button class="botao" type="submit"onsubmit=""> concluido</button>
+    </forme>
+       
+     
+      
+    
+
+    
+    
+</body>
+</html>

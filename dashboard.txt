@@ -1,0 +1,86 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Tempo de geração: 20/06/2024 às 18:53
+-- Versão do servidor: 10.4.32-MariaDB
+-- Versão do PHP: 8.2.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Banco de dados: `dashboard`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `loja`
+--
+
+CREATE TABLE `loja` (
+  `id` int(20) NOT NULL,
+  `Nome` varchar(20) DEFAULT NULL,
+  `Sobrenome` varchar(20) DEFAULT NULL,
+  `Telefone` int(22) UNSIGNED DEFAULT NULL,
+  `Email` varchar(20) DEFAULT NULL,
+  `CPF` int(20) UNSIGNED DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Despejando dados para a tabela `loja`
+--
+
+INSERT INTO `loja` (`id`, `Nome`, `Sobrenome`, `Telefone`, `Email`, `CPF`) VALUES
+(4664, 'kerem', 'Bursim', 329854421, 'KeremT@gmail.com', 152531),
+(15422, 'Vanessa', 'Palmeira', 3299816742, 'VanessaPalmeira00@gm', 151355),
+(18892, 'Hande', 'Gomes', 3295176455, 'HandeT2668@gmail.com', 152531),
+(19886, 'kiraz', 'Ali', 3299762445, 'KirazAF@GMAIL.COM', 152531),
+(24486, 'Juliana', 'Alves', 3299874321, 'ju6Alves@gmail.com', 150144),
+(48233, 'Arthur', 'Rogers', 3298511288, 'Rogers865@gmail.com', 133726),
+(124452, 'Aparecida', 'Vidal', 3299510514, 'AparecidaVidal@gmail', 150505),
+(126568, 'ANA LUCIA', 'OLIVEIRA', 3299852648, 'AnaO@gmail.com', 143540),
+(166428, 'Adriana', 'Silva', 329973912, 'AdrianaS663@gmail.co', 152531),
+(166431, 'Amanda', 'Silva', 3299841668, 'Amanda_S@gmail.com', 150144),
+(184563, 'Silas', 'Joaquim', 329875431, 'Silasttok@gmail.com', 144915),
+(187924, 'Gabriel', 'Alves', 3299428726, 'Gabriel1188@gmail.co', 150505),
+(188993, 'Camila', 'krimli', 3299811742, 'CamilaK662@gmail.com', 151355),
+(487664, 'wesley', 'Ramos', 3298764228, 'wesleyramoss09@gmail', 150144),
+(1196426, 'Laura', 'xavier', 329951726, 'Laurax27@gmailcom', 151355),
+(1456678, 'Alexandra', 'Joaquim', 3298171655, 'Alexandra880@gmail.c', 119532208),
+(1778825, 'Aline', 'Souza', 3299561378, 'Aline1999@gmail.com', 151355),
+(8764432, 'Janaina', 'Alves', 985629908, 'jana976@gmail.com', 1198654388);
+
+--
+-- Índices para tabelas despejadas
+--
+
+--
+-- Índices de tabela `loja`
+--
+ALTER TABLE `loja`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT para tabelas despejadas
+--
+
+--
+-- AUTO_INCREMENT de tabela `loja`
+--
+ALTER TABLE `loja`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8764433;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
